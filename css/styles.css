@@ -29,7 +29,7 @@ body {
 	color: #4d5ae5;
 }
 
-.header-logo span {
+.header-span {
   color: #2e2f42;
 }
 
@@ -51,7 +51,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--main-title-color);
+  color: var( --main-text-color);
 	font-style: normal;
 }
 
@@ -156,6 +156,9 @@ body {
 .team {
 	background-color: #F4F4FD
 }
+.team-list {
+	background-color: #FFFFFF
+}
 
 /*product*/
 
@@ -189,6 +192,10 @@ body {
 
 .footer {
 	background-color: #2e2f42;
+}
+
+.footer span {
+	color: #f4f4fd
 }
 
 .footer-text {
